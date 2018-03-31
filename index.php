@@ -22,18 +22,20 @@ body{background-image: url('background_csgo2.png');
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <ul class="navbar-nav">
-	<img src="logo.jpg" class="rounded" width="40" height="40" > 
+	<a class="navbar-brand" href="#">
+		<img src="logo.jpg" alt="logo" style="width:30px; height: 30px">
+	</a>
     <li class="nav-item active">
-      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link disabled" href="index.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="plugin_list">Plugins' List</a>
+      <a class="nav-link disabled" href="plugin_list.php">Plugins' List</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="configs_list">Configs Info</a>
+      <a class="nav-link disabled" href="configs_list.php">Configs Info</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="map_list">Maps' List</a>
+      <a class="nav-link disabled" href="map_list.php">Maps' List</a>
     </li>
   </ul>
 </nav>
