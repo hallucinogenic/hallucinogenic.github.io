@@ -4,48 +4,57 @@
   <title>Hallucinogenic Troll's Config</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
+<style>
+body{background-image: url('background_csgo2.png');
+    background-size:cover;}
+.container
+{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+</style>
 <body>
 
-<!-- Grey with black text -->
-<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <ul class="navbar-nav">
-	<img src="logo.jpg" class="rounded" alt="Cinque Terre"> <!--width="304" height="236" --> 
+	<img src="logo.jpg" class="rounded" alt="Cinque Terre" width="40" height="40" > 
     <li class="nav-item active">
-      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="index.html">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="#">List of Plugins</a>
+      <a class="nav-link disabled" href="plugin_list.html">List of Plugins</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="#">Configs Info</a>
+      <a class="nav-link disabled" href="configs_list.html">Configs Info</a>
     </li>
   </ul>
 </nav>
 
-<div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+<div class="container text-center" style=" height: 120px; background-color:white"> <!--style="background-image: url('maxresdefault.jpg'); width:100%; height:1%;" -->
+  <h1>Hallucinogenic Troll's Configs</h1>
+  <p>My official page with information about my CS:GO Configs and Plugins!</p> 
 </div>
   
-<div class="container">
+<div class="container" style="background-color: white;">
   <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    <div class="col-md">
+      <h3>Info About Me:</h3>
+		<ul>
+			<li>
+				Informatic Engineer Student at <a href="http://ubi.pt">Universidade da Beira Interior</a>;
+			</li>
+			<li>
+				Love Playing CS:GO;
+			</li>
+		</ul>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md">
       <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
